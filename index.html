@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10251c">
+  <meta name="description" content="Biblioteca Digital Da Vinci — acesso a manuais e recursos educativos.">
+  <title>NB Protect | Biblioteca Digital Da Vinci</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f5;
+      color: #20352b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #10251c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 65px;
+      height: 65px;
+      margin: auto;
+      border: 2px solid #a7e5b8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #a7e5b8;
+    }
+
+    header h1 {
+      margin: 12px 0 0;
+      font-size: 25px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      color: #d3e5d9;
+    }
+
+    nav {
+      background: #1c3b2c;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #173e2b, #32744b);
+      color: white;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 30px;
+      line-height: 1.25;
+      margin: 0 auto 15px;
+      max-width: 650px;
+    }
+
+    .hero p {
+      max-width: 550px;
+      margin: 0 auto 24px;
+      color: #e5f1e8;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 7px;
+      background: #c8f0d1;
+      color: #173e2b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 16px 40px;
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .section-intro {
+      text-align: center;
+      color: #607267;
+      margin: 0 auto 22px;
+      max-width: 600px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #dce7df;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #245b39;
+    }
+
+    .icon {
+      font-size: 30px;
+    }
+
+    .notice {
+      background: #e5f3e9;
+      border-left: 4px solid #32744b;
+      padding: 18px;
+      border-radius: 5px;
+    }
+
+    .contact {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #dce7df;
+    }
+
+    footer {
+      background: #10251c;
+      color: #d3e5d9;
+      text-align: center;
+      padding: 22px 15px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .hero h2 {
+        font-size: 26px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">NB</div>
+    <h1>NB PROTECT</h1>
+    <p>Biblioteca Digital Da Vinci</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#biblioteca">Biblioteca</a>
+    <a href="#protecao">Proteção</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="hero" id="inicio">
+    <h2>Conhecimento para aprender, crescer e transformar</h2>
+    <p>
+      Um espaço digital dedicado à organização e ao acesso
+      a manuais educativos e materiais de aprendizagem.
+    </p>
+    <a class="button" href="#biblioteca">Explorar a biblioteca</a>
+  </div>
+
+  <main>
+
+    <section id="biblioteca">
+      <h2 class="section-title">Biblioteca Digital</h2>
+      <p class="section-intro">
+        Descubra os recursos educativos disponíveis na nossa plataforma.
+      </p>
+
+      <div class="cards">
+
+        <article class="card">
+          <div class="icon">📘</div>
+          <h3>Manuais escolares</h3>
+          <p>
+            Espaço destinado a manuais organizados por disciplina
+            e nível de ensino.
+          </p>
+          <p><strong>Em preparação.</strong></p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🔬</div>
+          <h3>Biologia e ciências</h3>
+          <p>
+            Materiais de apoio ao estudo, conteúdos científicos
+            e recursos pedagógicos.
+          </p>
+          <p><strong>Em preparação.</strong></p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📚</div>
+          <h3>Recursos educativos</h3>
+          <p>
+            Um espaço para reunir fichas de exercícios,
+            atividades e outros materiais de aprendizagem.
+          </p>
+          <p><strong>Em preparação.</strong></p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="protecao">
+      <h2 class="section-title">NB Protect</h2>
+
+      <div class="notice">
+        <strong>Compromisso com os autores e o conhecimento</strong>
+        <p>
+          O projeto pretende organizar os materiais educativos
+          e promover o seu acesso responsável, respeitando os
+          direitos dos autores.
+        </p>
+        <p>
+          A proteção digital pode reduzir alguns usos indevidos,
+          mas não impede completamente cópias, fotografias
+          ou capturas de ecrã.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contact">
+        <h2>Contacto e informações</h2>
+        <p>
+          Para informações sobre a biblioteca e os seus materiais,
+          contacte a equipa responsável pelo projeto.
+        </p>
+        <p><strong>NB Protect — Biblioteca Digital Da Vinci</strong></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 NB Protect — Biblioteca Digital Da Vinci</p>
+    <p>Educação, conhecimento e responsabilidade digital.</p>
+  </footer>
+
+</body>
+</html>
